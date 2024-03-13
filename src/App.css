@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.backgound{
+  background: url("https://i.postimg.cc/RC8D4LVJ/bg-p.png") no-repeat;
+  width: 650px;
+  height: 284px;
+  background-size: cover;
+  background-position: center;
+}
+.signature{
+  width: 640px;
+  height: 284px;
+}
+.content{
+  height: 74%;
+  background: transparent;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.upperContent{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.white{
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
